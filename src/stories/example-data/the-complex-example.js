@@ -35,7 +35,6 @@ export default {
           limit: 5,
         };
         const output = fn(input);
-        console.log(output);
         return Array.isArray(output) && output.length === 1;
       },
       points: 25,
